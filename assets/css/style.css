@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  background-image: url("../images/floor-tile/floor-tile/floor-tile.png");
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -30px;
+  margin: 0 auto;
+}
+.footer,
+.push {
+  height: 50px;
+}
+#name {
+  width: 100%;
+  margin-left: 15vw;
+  margin-bottom: 0;
+  background-color: #2abfff;
+  border-bottom: 15px solid #007bff;
+  border-right: 15px solid #007bff;
+}
+h1 {
+  text-align: center;
+  font-family: fantasy;
+}
+footer {
+  text-align: center;
+  background-color: #2abfff;
+  border-bottom: 8px solid #007bff;
+  margin: 0;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  clear: both;
+  margin-left: 0;
+}
+#pict1 {
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  margin-left: 15vw;
+}
+#pict2 {
+  margin-top: 2vw;
+  margin-left: 5vw;
+  margin-bottom: 5vw;
+}
+#pict3 {
+  margin-left: 18vw;
+}
+#pict4 {
+  margin-left: 8vw;
+}
+#button {
+  background-color: #2abfff;
+  margin-left: 45%;
+  margin-top: 2vw;
+}
+
+.photo-container {
+  width: 250px;
+  height: 250px;
+}
+
+.photo-container img {
+  width: 250px;
+  height: 250px;
+}
+
+/* For tablets */
+@media screen and (max-width: 768px) {
+  .photo-container {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  .photo-container img {
+    width: 200px;
+    height: 200px;
+  }
+}
