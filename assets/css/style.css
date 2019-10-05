@@ -47,6 +47,10 @@ footer {
   margin-bottom: 5vw;
   margin-left: 15vw;
 }
+#button1 {
+  margin-top: 55%;
+  margin-left: -200px;
+}
 #pict2 {
   margin-top: 2vw;
   margin-left: 5vw;
@@ -54,14 +58,15 @@ footer {
 }
 #pict3 {
   margin-left: 18vw;
+  margin-bottom: 8vw;
 }
 #pict4 {
   margin-left: 8vw;
 }
 #button {
   background-color: #2abfff;
-  margin-left: 45%;
-  margin-top: 2vw;
+  margin-left: 485px;
+  margin-top: 5vw;
 }
 
 .photo-container {
